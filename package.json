@@ -1,0 +1,9 @@
+{
+  "name": "jack-gale-dot-com",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/iamjackgale/jack-gale-dot-com.git",
+  "author": "jackgale.eth <jack.gale@icloud.com>",
+  "license": "MIT",
+  "private": true
+}
