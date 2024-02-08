@@ -1,5 +1,5 @@
 *{
-    font-family:sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     margin: auto;
 }
 
@@ -26,7 +26,13 @@ li{
 
 h1{
     text-align:center;
+    font-weight:bolder;
     margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+h2{
+    letter-spacing: 5px;
 }
 
 header{
@@ -107,11 +113,14 @@ footer{
 }
 
 .nav-item{
-    float: left;
     width: 100px;
     min-width: 25%;
     text-align: center;
     font-size: 14px;
+}
+
+.nav-link{
+    border-radius: 20px;
 }
 
 .periods{
