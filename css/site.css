@@ -1,6 +1,5 @@
 *{
-    max-width: 715px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:sans-serif;
     margin: auto;
 }
 
@@ -46,11 +45,23 @@ footer{
     background-color:black;
     color: white;
     text-align: right;
+    text-align: right;
+    padding-right: 10pt;
+    font-size: 11px;
 }
 
 .achievements{
+    max-width: 715px;
     text-align: justify;
     font-size: 11px;
+}
+
+.column {
+    flex: 50%;
+}
+
+.row {
+    display: flex;
 }
 
 .details{
@@ -59,33 +70,31 @@ footer{
 }
 
 .details1{
+    max-width: 715px;
     margin-top: -12px;
     margin-bottom: 0px;
 }
 
-.disclaimer{
-    text-align: right;
-    padding-right: 10pt;
-    font-style: italic;
-    font-size: 8px;
-}
-
 .education{
+    max-width: 715px;
     text-align: justify;
     font-size: 11px;
 }
 
 .firstpara{
+    max-width: 715px;
     text-align: justify;
     margin-top: -12px;
 }
 
 .headings{
+    max-width: 715px;
     text-align: justify;
     font-weight: bold;
 }
 
 .legal{
+    max-width: 715px;
     text-align: justify;
     font-size: 11px;
     page-break-after: always
@@ -112,6 +121,7 @@ footer{
 }
 
 .sections{
+    max-width: 715px;
     text-align: justify;
     font-weight: bold;
     text-transform:uppercase;
@@ -120,6 +130,7 @@ footer{
 }
 
 .skills{
+    max-width: 715px;
     text-align: justify;
     font-size: 11px;
     padding-bottom: -10px;
@@ -166,7 +177,6 @@ footer{
 
 #main-bar{
     border-bottom:solid 6px black;
-    font-family: Arial, Helvetica, sans-serif;
     min-width: 100%;
     text-align: center;
 }
@@ -178,5 +188,7 @@ a:link, a:visited{
 }
 
 a:hover, a:active{
-    text-decoration: none;
+    color: white;
+    font-style: bold;
+    text-decoration: white;
 }
