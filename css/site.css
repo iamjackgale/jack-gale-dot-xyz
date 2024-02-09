@@ -39,9 +39,11 @@ header{
     position: fixed;
     text-align: justify;
     position: center;
-    background-color: white;
+    background-color: black;
+    color: black;
     text-align: center;
     width: 100%;
+    padding-top: 10px;
 }
 
 footer{
@@ -60,6 +62,66 @@ footer{
     max-width: 715px;
     text-align: justify;
     font-size: 11px;
+}
+
+.blog-preview{
+    display: flex;
+    background-color: #C6D2A9;
+    color: #C6D2A9;
+    margin: auto;
+    box-sizing: border-box;
+    border: black;
+    padding: 20px;
+    border-radius: 50px;
+    width: 850px;
+    margin-bottom: 35px;
+}
+
+.blog-row{
+    background-color: #C6D2A9;
+    display: flex;
+
+}
+
+.blog-column{
+    flex: 50%;
+    margin-right:10px;
+}
+
+.blog-header{
+    vertical-align: top;
+    font-size: 18px;
+    font-style: bolder;
+    font-weight: bold;
+    text-align: justify;
+}
+
+.blog-category{
+    text-align: center;
+    background-color: black;
+    font-size: 10px;
+    margin-right: 60%;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+.blog-date{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.blog-description{
+    text-align: justify;
+    font-size: 14px;
+
+}
+
+.blog-image{
+    max-width: 100%;
+    border-radius: 30px;
+    margin: auto;
 }
 
 .column {
@@ -121,6 +183,8 @@ footer{
 
 .nav-link{
     border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .periods{
@@ -172,7 +236,8 @@ footer{
 }
 
 #list1{
-    text-align: justify;    text-decoration: underline;
+    text-align: justify;    
+    text-decoration: underline;
     margin-top: -6px;
     margin-bottom: 6px;
 }
