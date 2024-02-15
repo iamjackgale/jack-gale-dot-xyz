@@ -47,6 +47,25 @@ header{
     z-index: 1;
 }
 
+#loader {
+    position: absolute;
+    left: 100%;
+    top: 16%;
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    margin: -100px 0 0 -100px;
+    border: 10px solid gray;
+    border-radius: 50%;
+    border-top: 10px solid #C6D2A9;
+    animation: spin 0.75s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 .achievements{
     max-width: 715px;
     text-align: justify;
@@ -303,7 +322,7 @@ footer{
 }
 
 a:link, a:visited{
-    color: green;
+    color: #C6D2A9;
     background-color: white;
     text-decoration: none;
 }
