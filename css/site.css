@@ -68,16 +68,28 @@ h2{
     padding-right: 10%;
 }
 
-.navbar-toggler{
-    height: 55px;
-    width: 10px;
-    border: solid 5px #36454F;
+.navbar-toggler, .navbar-toggler:link, .navbar-toggler:visited{
+    position: fixed;
+    margin-left:62%;
+    height: 25px;
+    width: 0px;
+    background-color: black;
+    border: solid 2px #36454F !important;
+    border-radius: 100px  !important;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler:hover, .navbar-toggler:active{
+    border: solid 2px #03a70b !important;
+}
+
+.navbar-toggler-icon, .navbar-toggler-icon:link, .navbar-toggler-icon:visited{
     font-size: 13px; 
     margin-left: -10px; 
     color: #36454F
+}
+
+.navbar-toggler-icon:hover, .navbar-toggler-icon:active{
+    color: #03a70b
 }
 
 .navbar-collapse{
