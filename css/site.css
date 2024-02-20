@@ -140,6 +140,14 @@ a.navbar-brand:hover, a.nav-link:hover, a.navbar-brand:active, a.nav-link:active
     border: solid #36454F 1px;
 }
 
+.blog-preview, .blog-preview:link, .blog-preview:visited{
+    border: solid #36454F 1px;
+}
+
+.blog-preview:hover, .blog-preview:active{
+    border: solid #03a70b 3px;
+}
+
 .blog-row{
     display: flex;
 }
@@ -154,7 +162,7 @@ a.blog-link, a.blog-link:link, a.blog-link:visited{
 }
 
 a.blog-link:hover, a.blog-link:active{
-    color: #03a70b;
+    color: #36454F;
     text-decoration: none !important;
 }
 
@@ -217,18 +225,19 @@ a.blog-link:hover, a.blog-link:active{
     background: #cccccc48;
     color: #36454F;
     padding: 20px;
-    border: solid #36454F 1px;
     border-radius: 50px;
     width: 400px;
     margin-top: 20px;
 }
 
 a.link-preview, a.link-preview:link, a.link-preview:visited {
-    color: #36454F;    
+    color: #36454F;
+    border: solid #36454F 1px;
 }
 
 a.link-preview:hover, a.link-preview:active{
-    color: #03a70b;
+    color: #36454F;
+    border: solid #03a70b 3px;
 }
 
 .link-row{
